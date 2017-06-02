@@ -1,4 +1,4 @@
-<!-- 
+<!--
 /*
  * Copyright 2014-2017 Aleksandr Mashchenko.
  *
@@ -33,7 +33,7 @@
             <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
             <distribution>repo</distribution>
         </license>
-    </licenses> 
+    </licenses>
 
     <developers>
         <developer>
@@ -51,22 +51,27 @@
 
     <distributionManagement>
         <repository>
-            <id>sonatype-nexus-staging</id>
-            <name>Nexus Release Repository</name>
-            <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+            <id>libs-release-local</id>
+            <name>Local libraries releases repository</name>
+            <url>https://repo.kfirs.com/artifactory/libs-release-local</url>
         </repository>
         <snapshotRepository>
-            <id>sonatype-nexus-snapshots</id>
-            <name>Sonatype Nexus Snapshots</name>
-            <url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+            <id>libs-snapshot-local</id>
+            <name>Local libraries snapshots repository</name>
+            <url>https://repo.kfirs.com/artifactory/libs-snapshot-local</url>
         </snapshotRepository>
+        <site>
+            <id>www</id>
+            <name>Web site</name>
+            <url>scpexe://deploy.www.kfirs.com/opt/kfirs/www/html/${project.groupId}/${project.version}/${project.artifactId}</url>
+        </site>
     </distributionManagement>
 
     <properties>
         <java.version>1.6</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <scm.url>scm:git:git@github.com:aleksandr-m/gitflow-maven-plugin.git</scm.url>
-        <url>https://github.com/aleksandr-m/gitflow-maven-plugin</url>
+        <scm.url>scm:git:git@github.com:arikkfir/gitflow-maven-plugin.git</scm.url>
+        <url>https://github.com/arikkfir/gitflow-maven-plugin</url>
         <maven-plugin-plugin.version>3.4</maven-plugin-plugin.version>
     </properties>
 
