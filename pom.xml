@@ -40,6 +40,16 @@
             <name>Aleksandr Mashchenko</name>
         </developer>
     </developers>
+    <contributors>
+        <contributor>
+            <name>Arik Kfir</name>
+            <email>arik@kfirs.com</email>
+            <timezone>+2</timezone>
+            <properties>
+                <picUrl>https://avatars2.githubusercontent.com/u/272811?v=3&amp;s=32</picUrl>
+            </properties>
+        </contributor>
+    </contributors>
 
     <url>${url}</url>
 
