@@ -63,12 +63,12 @@
         <repository>
             <id>libs-release-local</id>
             <name>Local libraries releases repository</name>
-            <url>https://repo.kfirs.com/artifactory/libs-release-local</url>
+            <url>https://repo.kfirs.com/artifactory/ext-release-local</url>
         </repository>
         <snapshotRepository>
             <id>libs-snapshot-local</id>
             <name>Local libraries snapshots repository</name>
-            <url>https://repo.kfirs.com/artifactory/libs-snapshot-local</url>
+            <url>https://repo.kfirs.com/artifactory/ext-snapshot-local</url>
         </snapshotRepository>
         <site>
             <id>www</id>
